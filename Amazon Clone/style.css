@@ -6,7 +6,7 @@
 
 .navbar {
     height: 60px;
-    background-color: #003d32;
+    background-color: #131A22;
     color: white;
     display: flex;
     align-items: center;
@@ -58,14 +58,14 @@
 .nav-search {
     display: flex;
     justify-content: space-evenly;
-    background-color: pink;
+    background-color: #131A22;
     width: 620px;
     height: 40px;
     border-radius: 4px;
 }
 
 .nav-search:hover {
-    border: 2px solid rgba(171, 19, 88, 0.949);
+    border: 2px solid #000000;
 }
 .search-select {
     background-color: #e6e6e6;
@@ -89,9 +89,10 @@
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    background-color: rgba(171, 19, 88, 0.949);
+    background-color: #FEBD69;
     border-top-right-radius: 4px;
     border-bottom-right-radius: 4px;
+    color: black;
 }
 
 /* box 4 - end part */
@@ -106,7 +107,7 @@
 }
 
 .lang-text {
-    background-color: #003d32;
+    background-color: #131A22;
     color: white;
     border: none;
     font-size: 14px;
@@ -141,4 +142,85 @@
     font-size: 0.85rem;
     font-weight: 700;
     margin-left: 2px;
+}
+
+/* panel */
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: #ffffff;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-options {
+    width:95%;
+    font-size: 0.85rem;
+}
+
+/* hero-section */
+.hero-section {
+    background-image: url("hero-section.jpg");
+    background-size: cover;
+    height: 350px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color:white;
+    color: black;
+    height:40px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.99rem;
+    width: 97%;
+    margin-bottom: 25px;
+}
+
+.hero-message a {
+    color: #007185
+}
+
+/* shop-section */
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;
+}
+
+.box {
+    border: 2px solid black;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top:25px;
+}
+
+.box-img {
+    height: 300px;  
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-size: 0.75rem;
+}
+
+.box-content p {
+    color:#007185;
+    font-size: 0.90rem;
 }
