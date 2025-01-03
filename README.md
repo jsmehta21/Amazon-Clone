@@ -32,7 +32,7 @@ Amazon Clone/
 │
 ├── index.html        # Main HTML file (structure of the webpage)
 ├── style.css         # CSS file (styling and layout rules)
-└── assets/           # Folder for images used
+└── images           # images used in the webpage
 ```
 
 ---
